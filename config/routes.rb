@@ -1,5 +1,13 @@
 Bookx2::Application.routes.draw do
  
+  get "product/index"
+
+  get "product/new"
+
+  get "product/show"
+
+  get "product/edit"
+
  resources :users
   # users priority is based upon order of creation:
   # first created -> highest priority.
